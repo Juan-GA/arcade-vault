@@ -4,15 +4,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 @AGENTS.md
 
-## Commands
-
-```bash
-npm run dev      # start dev server (Turbopack, default in v16)
-npm run build    # production build (Turbopack, default in v16)
-npm run start    # start production server
-npm run lint     # run ESLint (flat config, not `next lint`)
-```
-
 No test suite is configured yet.
 
 ## Stack
@@ -21,6 +12,10 @@ No test suite is configured yet.
 - **React 19.2** — includes View Transitions, `useEffectEvent`
 - **Tailwind CSS v4** — configured via `@import "tailwindcss"` in `globals.css`; theme tokens defined with `@theme inline`
 - **TypeScript 5**
+
+## Skills
+
+Usa siempre /frontend-design para diseñar la interfaz de usuario.
 
 ## Next.js 16 Breaking Changes
 
