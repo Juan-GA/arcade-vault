@@ -1,6 +1,6 @@
 # SPEC 02 — Home page y actualización de Nav
 
-> **Estado:** Aprobado · **Depende de:** SPEC 01 · **Fecha:** 2026-06-21
+> **Estado:** Implementado · **Depende de:** SPEC 01 · **Fecha:** 2026-06-21
 > **Objetivo:** Implementar la landing Home page en `/`, mover la Biblioteca actual a `/games`, y actualizar el Nav para reflejar la nueva estructura de rutas.
 
 ---
@@ -77,26 +77,26 @@ en el componente `HomePage`, igual que en la plantilla de referencia.
 
 ## Criterios de aceptación
 
-- [ ] `/` carga el Home page sin errores en consola
-- [ ] El hero muestra el eyebrow, título en 3 líneas, subtítulo y 2 botones CTA
-- [ ] Los 8 silhouettes SVG flotan con animación en el hero
-- [ ] "EXPLORAR JUEGOS" navega a `/games`
-- [ ] "CREAR CUENTA" navega a `/auth`
-- [ ] La sección "¿Por qué Arcade Vault?" muestra 4 feature cards con íconos pixel SVG
-- [ ] La sección de juegos muestra un rail con 6 MiniCards; click en una navega a `/games/[id]`
-- [ ] "VER TODOS LOS JUEGOS →" navega a `/games`
-- [ ] La sección de stats muestra los 3 bloques (12+, MILES, GLOBAL)
-- [ ] La sección de actividad muestra el ticker de 7 filas y el top 5 de jugadores
-- [ ] "VER SALÓN →" navega a `/hall-of-fame`
-- [ ] La sección de precios muestra el price card y los 3 FAQ
-- [ ] "EMPEZAR GRATIS →" e "INSERTAR MONEDA →" navegan a `/auth` y `/games` respectivamente
-- [ ] Las secciones con clase `.reveal` aparecen con animación al hacer scroll
-- [ ] `/games` muestra la Biblioteca (hero, búsqueda, filtros, grid de GameCards)
-- [ ] `/games/[id]` y `/games/[id]/play` siguen funcionando sin cambios
-- [ ] El Nav muestra "Inicio" (activo en `/`) y "Biblioteca" (activo en `/games` y subrutas)
-- [ ] El link del logo navega a `/`
-- [ ] El menú mobile incluye "Inicio" y "Biblioteca" con las URLs correctas
-- [ ] `tsc --noEmit` pasa sin errores
+- [x] `/` carga el Home page sin errores en consola
+- [x] El hero muestra el eyebrow, título en 3 líneas, subtítulo y 2 botones CTA
+- [x] Los 8 silhouettes SVG flotan con animación en el hero
+- [x] "EXPLORAR JUEGOS" navega a `/games`
+- [x] "CREAR CUENTA" navega a `/auth`
+- [x] La sección "¿Por qué Arcade Vault?" muestra 4 feature cards con íconos pixel SVG
+- [x] La sección de juegos muestra un rail con 6 MiniCards; click en una navega a `/games/[id]`
+- [x] "VER TODOS LOS JUEGOS →" navega a `/games`
+- [x] La sección de stats muestra los 3 bloques (12+, MILES, GLOBAL)
+- [x] La sección de actividad muestra el ticker de 7 filas y el top 5 de jugadores
+- [x] "VER SALÓN →" navega a `/hall-of-fame`
+- [x] La sección de precios muestra el price card y los 3 FAQ
+- [x] "EMPEZAR GRATIS →" e "INSERTAR MONEDA →" navegan a `/auth` y `/games` respectivamente
+- [x] Las secciones con clase `.reveal` aparecen con animación al hacer scroll
+- [x] `/games` muestra la Biblioteca (hero, búsqueda, filtros, grid de GameCards)
+- [x] `/games/[id]` y `/games/[id]/play` siguen funcionando sin cambios
+- [x] El Nav muestra "Inicio" (activo en `/`) y "Biblioteca" (activo en `/games` y subrutas)
+- [x] El link del logo navega a `/`
+- [x] El menú mobile incluye "Inicio" y "Biblioteca" con las URLs correctas
+- [x] `tsc --noEmit` pasa sin errores
 
 ---
 
