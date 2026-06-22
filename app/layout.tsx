@@ -35,9 +35,11 @@ export default function RootLayout({
         <div className="av-bg" />
         <div className="av-noise" />
         <SessionProvider>
-          <Nav />
-          <main className="av-main flex-1">{children}</main>
-          <Footer />
+          <div className="av-root">
+            <Nav />
+            <main className="av-main flex-1">{children}</main>
+            <Footer />
+          </div>
         </SessionProvider>
       </body>
     </html>

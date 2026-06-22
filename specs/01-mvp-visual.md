@@ -1,6 +1,6 @@
 # 01-mvp-visual
 
-**Estado:** Aprobado
+**Estado:** Implementado
 **Fecha:** 2026-06-21
 **Dependencias:** ninguna (spec inicial)
 
@@ -117,23 +117,23 @@ interface LeaderboardRow {
 
 ## Criterios de aceptación
 
-- [ ] `/` muestra el hero, la barra de búsqueda filtra por nombre en tiempo real, los chips filtran por categoría, las GameCards tienen efecto tilt en hover
-- [ ] Hacer click en una GameCard navega a `/games/[id]`
-- [ ] `/games/[id]` muestra cover, tags, stats, descripción larga y leaderboard mock lateral
-- [ ] El botón "Jugar ahora" navega a `/games/[id]/play`
-- [ ] `/games/[id]/play` muestra HUD con score que sube automáticamente vía setInterval
-- [ ] El botón Pausa detiene el score y muestra overlay "EN PAUSA"; Reanudar lo retoma
-- [ ] El botón Fin abre el modal "Fin del juego" con la puntuación final
-- [ ] Guardar puntuación escribe en `av_scores` localStorage y muestra confirmación
-- [ ] `/hall-of-fame` muestra podio top 3 y tabla de 12 filas; los tabs cambian el juego activo
-- [ ] Si hay usuario en sesión, su fila aparece destacada en amarillo al final de la tabla
-- [ ] `/auth` alterna entre tabs Login y Registro; el campo de email solo aparece en Registro
-- [ ] Cualquier credencial en Login/Registro guarda el usuario en localStorage y redirige a `/`
-- [ ] "Jugar como invitado" limpia la sesión y redirige a `/`
-- [ ] Los botones Google y GitHub muestran un toast "Próximamente"
-- [ ] El Nav muestra el nombre del usuario cuando hay sesión activa; al hacer click cierra sesión
-- [ ] El menú hamburguesa funciona en mobile (< 768 px)
-- [ ] La app no tiene errores de TypeScript (`tsc --noEmit` pasa)
+- [x] `/` muestra el hero, la barra de búsqueda filtra por nombre en tiempo real, los chips filtran por categoría, las GameCards tienen efecto tilt en hover
+- [x] Hacer click en una GameCard navega a `/games/[id]`
+- [x] `/games/[id]` muestra cover, tags, stats, descripción larga y leaderboard mock lateral
+- [x] El botón "Jugar ahora" navega a `/games/[id]/play`
+- [x] `/games/[id]/play` muestra HUD con score que sube automáticamente vía setInterval
+- [x] El botón Pausa detiene el score y muestra overlay "EN PAUSA"; Reanudar lo retoma
+- [x] El botón Fin abre el modal "Fin del juego" con la puntuación final
+- [x] Guardar puntuación escribe en `av_scores` localStorage y muestra confirmación
+- [x] `/hall-of-fame` muestra podio top 3 y tabla de 12 filas; los tabs cambian el juego activo
+- [x] Si hay usuario en sesión, su fila aparece destacada en amarillo al final de la tabla
+- [x] `/auth` alterna entre tabs Login y Registro; el campo de email solo aparece en Registro
+- [x] Cualquier credencial en Login/Registro guarda el usuario en localStorage y redirige a `/`
+- [x] "Jugar como invitado" limpia la sesión y redirige a `/`
+- [x] Los botones Google y GitHub muestran un toast "Próximamente"
+- [x] El Nav muestra el nombre del usuario cuando hay sesión activa; al hacer click cierra sesión
+- [x] El menú hamburguesa funciona en mobile (< 768 px)
+- [x] La app no tiene errores de TypeScript (`tsc --noEmit` pasa)
 
 ---
 
