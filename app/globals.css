@@ -954,9 +954,9 @@ a { color: inherit; text-decoration: none; }
 /* misc */
 .divider { height: 1px; background: var(--line); margin: 8px 0; }
 .fade-in { animation: fadeIn 240ms ease-out; }
-@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@keyframes fadeIn { from { transform: translateY(6px); } to { transform: none; } }
 .slide-in { animation: slideIn 260ms ease-out; }
-@keyframes slideIn { from { opacity: 0; transform: translateX(12px); } to { opacity: 1; transform: none; } }
+@keyframes slideIn { from { transform: translateX(12px); } to { transform: none; } }
 
 /* tweaks */
 .tw-section { margin-bottom: 14px; }
